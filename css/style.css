@@ -1,0 +1,35 @@
+@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400);
+@import url(/node_modules/normalize.css/normalize.css);
+html { box-sizing: border-box; }
+
+*, *::after, *::before { box-sizing: inherit; }
+
+/*Add Color Palette*/
+/*Font Variables*/
+header { position: relative; }
+header nav { position: fixed; background-color: white; width: 100%; }
+header nav ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; list-style: none; width: 20%; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
+header #heroWrapper #hero { background: url("/images/pictures/main.jpeg") no-repeat; height: 800px; width: 100%; }
+header #heroWrapper #heroText h1 { text-align: center; font-family: "lato"; font-size: 8rem; margin: 0; }
+header #heroWrapper #heroText h1 span { color: orange; font-size: 9rem; }
+header #heroWrapper #heroText h2 { text-align: center; font-family: "lato"; text-transform: uppercase; font-size: 3rem; margin: 0; }
+
+main { /*whyMonico*/ /*aboutUs*/ }
+main h2 { text-align: center; font-family: "lato"; text-transform: uppercase; font-size: 3rem; letter-spacing: 7px; line-height: 2em; }
+main p, main li { font-family: "merriweather"; font-size: 2em; line-height: 2em; font-weight: 300; }
+main .scene { margin: auto; width: 80%; }
+main #whyMonico { padding: 5em; background-color: #f4f1de; /*ul*/ }
+main #whyMonico p { text-align: center; }
+main #whyMonico ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; /*li*/ }
+main #whyMonico ul li { list-style: none; display: inline-block; width: calc(100% / 2); text-align: center; font-family: "libre+baskerville"; font-weight: 300; font-size: 24px; }
+main #aboutUs { padding: 5em; }
+main #testimony { background-color: #f2d398; }
+main #testimony ul { width: 80%; margin: auto; }
+main #testimony ul li { list-style: none; }
+main #contact #appointment { text-align: center; }
+main #contact #appointment ul li { list-style: none; line-height: normal; }
+main #contact #appointment ul span { line-height: 5em; }
+
+/*main*/
