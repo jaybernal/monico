@@ -8,13 +8,13 @@ html { box-sizing: border-box; }
 
 /*Add Color Palette*/
 /*Font Variables*/
-header { position: relative; }
 header nav { position: fixed; background-color: white; width: 100%; }
 header nav ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; list-style: none; width: 20%; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
-header #heroWrapper #hero { background: url("/images/pictures/main.jpeg") no-repeat; height: 800px; width: 100%; }
-header #heroWrapper #heroText h1 { text-align: center; font-family: "lato"; font-size: 8rem; margin: 0; }
-header #heroWrapper #heroText h1 span { color: orange; font-size: 9rem; }
-header #heroWrapper #heroText h2 { text-align: center; font-family: "lato"; text-transform: uppercase; font-size: 3rem; margin: 0; }
+header #heroWrapper #hero { background: url("/images/pictures/main.jpeg") no-repeat center center fixed; height: 800px; width: 100%; text-align: center; background-size: cover; }
+header #heroWrapper #hero div h1 { text-align: center; font-family: "lato"; font-size: 14rem; margin: -100px 0px 0px 0px; }
+header #heroWrapper #hero div h1 span { color: orange; font-size: 15rem; }
+header #heroWrapper #hero div h2 { font-size: 5rem; margin: 0; }
+header #heroWrapper #hero div #heroTextDog { text-align: center; font-family: "lato"; text-transform: uppercase; padding-top: 200px; }
 
 main { /*whyMonico*/ /*aboutUs*/ }
 main h2 { text-align: center; font-family: "lato"; text-transform: uppercase; font-size: 3rem; letter-spacing: 7px; line-height: 2em; }
