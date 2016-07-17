@@ -19,13 +19,14 @@ header{
   }
   #heroWrapper{
     #hero{
-    background: url('/images/pictures/main.jpeg') no-repeat center center fixed;
+    background: url('https://jaybernal.github.io/monico/images/pictures/main.jpeg') no-repeat center center fixed;
     height: 800px;
     width: 100%;
     text-align: center;
     background-size: cover;
-      div{
-
+      #titleWrapper{ 
+      width: 26%;
+      margin: auto; 
         h1 {
             text-align: center;
             font-family: $headerFont;
@@ -40,9 +41,10 @@ header{
         h2{
           font-size: 5rem;
           margin: 0;
+          text-align: right;
         }
           #heroTextDog{
-            text-align: center;
+            text-align: left;
             font-family: $headerFont;
             text-transform: uppercase;
             padding-top: 200px;
