@@ -101,6 +101,10 @@ main{
   }/*aboutUs*/
 
   #testimony{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40em;
     background-color: $yellow;
     ul{
       width: 80%;

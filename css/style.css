@@ -26,7 +26,7 @@ main #whyMonico p { text-align: center; }
 main #whyMonico ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; /*li*/ }
 main #whyMonico ul li { list-style: none; display: inline-block; width: calc(100% / 2); text-align: center; font-family: "libre+baskerville"; font-weight: 300; font-size: 24px; }
 main #aboutUs { padding: 5em; }
-main #testimony { background-color: #f2d398; }
+main #testimony { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; height: 40em; background-color: #f2d398; }
 main #testimony ul { width: 80%; margin: auto; }
 main #testimony ul li { list-style: none; }
 main #contact #appointment { text-align: center; }
