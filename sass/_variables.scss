@@ -1,20 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,600);
 
 /*Add Color Palette*/
 
-$light : #f4f1de;
-$orange : orange;
-$blue :   #3d405b;
-$yellow : #f2d398;
-$green : #81b29A;
+$light  : #DFE0E2;
+$gray   : #AAA;
+$purple : #B7999C;
+$red    : #EB5160;
+$black  : #071013;
+$hero   : #949798;
+$orange : #EE682E;
 
 
 /*Font Variables*/
 $headerFont: "lato";
 $normalFont: "merriweather";
 $listFont: "libre+baskerville";
+$heroFont: "open+sans";
 
 $thin               :300;
 $normal             :400;
@@ -35,3 +39,6 @@ $wide: 1200px;
   background-color: $solid-color;
   background-color: $color;
 }
+
+
+/*#949798*/

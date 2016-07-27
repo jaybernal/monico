@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,400);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,600);
 @import url(/node_modules/normalize.css/normalize.css);
 html { box-sizing: border-box; }
 
@@ -8,29 +9,30 @@ html { box-sizing: border-box; }
 
 /*Add Color Palette*/
 /*Font Variables*/
-header nav { position: fixed; background-color: white; width: 100%; }
-header nav ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; list-style: none; width: 20%; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; }
-header #heroWrapper #hero { background: url("https://jaybernal.github.io/monico/images/pictures/main.jpeg") no-repeat center center fixed; height: 800px; width: 100%; text-align: center; background-size: cover; }
-header #heroWrapper #hero #titleWrapper { width: 52%; margin: auto; }
-header #heroWrapper #hero #titleWrapper h1 { text-align: center; font-family: "lato"; font-size: 14rem; margin: -100px 0px 0px 0px; }
-header #heroWrapper #hero #titleWrapper h1 span { color: orange; font-size: 15rem; }
-header #heroWrapper #hero #titleWrapper h2 { font-size: 5rem; margin: 0; text-align: right; }
-header #heroWrapper #hero #titleWrapper #heroTextDog { text-align: left; font-family: "lato"; text-transform: uppercase; padding-top: 200px; }
+/*#949798*/
+body { /*header*/ /*main*/ }
+body header { /*header nav*/ /*#heroWrapper*/ }
+body header nav { position: fixed; background: white; width: 100%; /*header ul*/ }
+body header nav ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; /*header li*/ }
+body header nav ul li { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-right: 3em; }
+body header #heroWrapper article img { margin: 0; width: 100%; }
+body main { /*h2*/ /*p, li*/ /*scene*/ /*whyMonico*/ /*aboutUs*/ /*testimony*/ /*contact*/ }
+body main h2 { text-align: center; font-family: "lato"; text-transform: uppercase; font-size: 3rem; letter-spacing: 7px; line-height: 2em; }
+body main p, body main li { font-family: "merriweather"; font-size: 2em; line-height: 2em; font-weight: 300; }
+body main .scene { margin: auto; width: 80%; }
+body main #whyMonico { padding: 5em; background-color: #DFE0E2; /*p*/ /*ul*/ }
+body main #whyMonico p { text-align: center; }
+body main #whyMonico ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; /*li*/ }
+body main #whyMonico ul li { list-style: none; display: inline-block; width: calc(100% / 2); text-align: center; font-family: "libre+baskerville"; font-weight: 300; font-size: 24px; }
+body main #aboutUs { padding: 5em; }
+body main #testimony { position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; height: 40em; background-color: #EB5160; z-index: -100; }
+body main #testimony img { width: 10em; }
+body main #testimony #leftHolder { position: absolute; height: 100%; width: 10%; top: 0; left: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+body main #testimony #rightHolder { position: absolute; height: 100%; width: 10%; top: 0; right: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+body main #contact { /*article*/ }
+body main #contact article { text-align: center; /*ul*/ }
+body main #contact article ul { /*span*/ }
+body main #contact article ul li { list-style: none; line-height: normal; }
+body main #contact article ul span { line-height: 5em; }
 
-main { /*whyMonico*/ /*aboutUs*/ }
-main h2 { text-align: center; font-family: "lato"; text-transform: uppercase; font-size: 3rem; letter-spacing: 7px; line-height: 2em; }
-main p, main li { font-family: "merriweather"; font-size: 2em; line-height: 2em; font-weight: 300; }
-main .scene { margin: auto; width: 80%; }
-main #whyMonico { padding: 5em; background-color: #f4f1de; /*ul*/ }
-main #whyMonico p { text-align: center; }
-main #whyMonico ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; /*li*/ }
-main #whyMonico ul li { list-style: none; display: inline-block; width: calc(100% / 2); text-align: center; font-family: "libre+baskerville"; font-weight: 300; font-size: 24px; }
-main #aboutUs { padding: 5em; }
-main #testimony { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; height: 40em; background-color: #f2d398; }
-main #testimony ul { width: 80%; margin: auto; }
-main #testimony ul li { list-style: none; }
-main #contact #appointment { text-align: center; }
-main #contact #appointment ul li { list-style: none; line-height: normal; }
-main #contact #appointment ul span { line-height: 5em; }
-
-/*main*/
+/*body*/

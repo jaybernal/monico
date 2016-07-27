@@ -5,129 +5,136 @@
 
 
 
-header{
-  nav{
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    ul{
-      display: flex;
-      list-style: none;
-      width: 20%;
-      justify-content: space-around;
-    }
-  }
-  #heroWrapper{
-    #hero{
-    background: url('https://jaybernal.github.io/monico/images/pictures/main.jpeg') no-repeat center center fixed;
-    height: 800px;
-    width: 100%;
-    text-align: center;
-    background-size: cover;
-      #titleWrapper{ 
-      width: 52%;
-      margin: auto; 
-        h1 {
-            text-align: center;
-            font-family: $headerFont;
-            font-size: 14rem;
-            margin: -100px 0px 0px 0px;
-            span{
-              color: orange;
-              font-size: 15rem;
-            }
-          }
+body{
 
-        h2{
-          font-size: 5rem;
-          margin: 0;
-          text-align: right;
-        }
-          #heroTextDog{
-            text-align: left;
-            font-family: $headerFont;
-            text-transform: uppercase;
-            padding-top: 200px;
-          }
-        }
-    }
-  }
-}
-
-
-
-main{
-  h2{
-    text-align: center;
-    font-family: $headerFont;
-    text-transform: uppercase;
-    font-size: 3rem;
-    letter-spacing: 7px;
-    line-height: 2em;
-  }
-  p, li{
-    font-family: $normalFont;
-    font-size: 2em;
-    line-height: 2em;
-    font-weight: $thin;
-  }
-  .scene{
-    margin: auto;
-    width: 80%;
-  }
-  #whyMonico{
-    padding: 5em;
-    background-color: $light;
-    p{
-      text-align: center;
-    }
-    ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;    
-      li {
-        list-style: none;
-        display: inline-block;
-        width: calc(100% / 2);
-        text-align: center;
-        font-family: $listFont;
-        font-weight: $thin;
-        font-size: 24px;
-      }/*li*/
-    }/*ul*/
-  }/*whyMonico*/
-  #aboutUs{
-    padding: 5em;
-  }/*aboutUs*/
-
-  #testimony{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 40em;
-    background-color: $yellow;
-    ul{
-      width: 80%;
-      margin: auto;
-      li{
-        list-style: none;
-      }
-    }
-  }
-
-  #contact{
-    #appointment{
-      text-align: center;
+   header {
+    nav{
+      position: fixed;
+      background: white;
+      width: 100%;
       ul{
+        display: flex;
         li{
-          list-style: none;
-          line-height: normal;
-        }
-        span{
-          line-height: 5em;
-        }
+          display: flex;
+          margin-right: 3em;
+        } /*header li*/
+      } /*header ul*/
+    } /*header nav*/
+
+    #heroWrapper{
+
+      article img {
+        margin: 0;
+        width: 100%;
       }
-    }
-  }
-}/*main*/
+        
+    }/*#heroWrapper*/
+
+
+  } /*header*/
+
+
+
+  main {
+    h2 {
+      text-align: center;
+      font-family: $headerFont;
+      text-transform: uppercase;
+      font-size: 3rem;
+      letter-spacing: 7px;
+      line-height: 2em;
+    }/*h2*/
+    p, li {
+      font-family: $normalFont;
+      font-size: 2em;
+      line-height: 2em;
+      font-weight: $thin;
+    }/*p, li*/
+    .scene {
+      margin: auto;
+      width: 80%;
+    }/*scene*/
+    #whyMonico {
+      padding: 5em;
+      background-color: $light;
+      p {
+        text-align: center;
+      }/*p*/
+      ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;    
+        li {
+          list-style: none;
+          display: inline-block;
+          width: calc(100% / 2);
+          text-align: center;
+          font-family: $listFont;
+          font-weight: $thin;
+          font-size: 24px;
+        }/*li*/
+      }/*ul*/
+    }/*whyMonico*/
+    #aboutUs {
+      padding: 5em;
+    }/*aboutUs*/
+    #testimony {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 40em;
+      background-color: $red;
+      z-index: -100;
+
+      img{
+        width: 10em;
+      }
+
+      #leftHolder{
+        position: absolute;
+        height: 100%;
+        width: 10%;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+
+        } 
+
+        #rightHolder{
+        position: absolute;
+        height: 100%;
+        width: 10%;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+      }
+        
+
+      
+
+
+    }/*testimony*/
+
+
+
+
+    #contact {
+      article {
+        text-align: center;
+        ul {
+          li {
+            list-style: none;
+            line-height: normal;
+          }
+          span{
+            line-height: 5em;
+          }/*span*/
+        }/*ul*/
+      }/*article*/
+    }/*contact*/
+  }/*main*/
+}/*body*/
 

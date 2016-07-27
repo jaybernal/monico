@@ -66,39 +66,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/pictures\/hero.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 223741,
-		"inputAbbreviatedPath": "\/images\/pictures\/hero.jpeg",
-		"outputAbbreviatedPath": "\/images\/pictures\/hero.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/pictures\/hero1.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 223741,
-		"inputAbbreviatedPath": "\/images\/pictures\/hero1.jpeg",
-		"outputAbbreviatedPath": "\/images\/pictures\/hero1.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/images\/pictures\/main.jpeg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 223741,
-		"inputAbbreviatedPath": "\/images\/pictures\/main.jpeg",
-		"outputAbbreviatedPath": "\/images\/pictures\/main.jpeg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
