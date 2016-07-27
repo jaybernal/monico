@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,400);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,700,600);
-@import url(/node_modules/normalize.css/normalize.css);
+@import url(../node_modules/normalize.css/normalize.css);
 html { box-sizing: border-box; }
 
 *, *::after, *::before { box-sizing: inherit; }

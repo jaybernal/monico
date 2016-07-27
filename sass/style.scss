@@ -1,7 +1,7 @@
  @import "bourbon";
  @import "bourbon", "neat";
  @import "variables.scss";
- @import "/node_modules/normalize.css/normalize.css";
+ @import "../node_modules/normalize.css/normalize.css";
 
 
 
@@ -27,10 +27,7 @@ body{
         margin: 0;
         width: 100%;
       }
-        
     }/*#heroWrapper*/
-
-
   } /*header*/
 
 
