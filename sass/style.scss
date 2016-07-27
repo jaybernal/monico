@@ -9,6 +9,8 @@ body{
 
    header {
     nav{
+      display: flex;
+      justify-content: space-between;
       position: fixed;
       background: white;
       width: 100%;
@@ -80,12 +82,11 @@ body{
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 40em;
       background-color: $red;
       z-index: -100;
 
-      img{
-        width: 10em;
+      .quotes{
+        width: 100%;
       }
 
       #leftHolder{
@@ -108,11 +109,6 @@ body{
         display: flex;
         justify-content: center;
       }
-        
-
-      
-
-
     }/*testimony*/
 
 
