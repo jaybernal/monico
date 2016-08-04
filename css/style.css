@@ -16,6 +16,7 @@ body header nav { display: -webkit-box; display: -webkit-flex; display: -ms-flex
 body header nav ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; /*header li*/ }
 body header nav ul li { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; margin-right: 3em; font-size: 24px; /*a*/ }
 body header nav ul li a { text-decoration: none; }
+body header nav .menu { margin-right: 1em; }
 body header #heroWrapper { /*#heroWrapper*/ }
 body header #heroWrapper article img { margin: 0; width: 100%; }
 body main { /*h2*/ /*p, li*/ /*scene*/ /*whyMonico*/ /*aboutUs*/ /*testimony*/ /*contact*/ }
@@ -26,11 +27,13 @@ body main #whyMonico { background-color: #DFE0E2; /*p*/ /*ul*/ }
 body main #whyMonico p { text-align: center; }
 body main #whyMonico ul { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; /*li*/ }
 body main #whyMonico ul li { list-style: none; display: inline-block; width: calc(100% / 2); text-align: center; font-family: "libre+baskerville"; font-weight: 300; font-size: 24px; }
-body main #testimony { position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; background-color: #EB5160; z-index: -100; height: 30em; }
-body main #testimony .quotes { width: 100%; }
+body main #testimony { position: relative; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; background-color: #EB5160; height: 100%; }
+body main #testimony .sceneTestimony { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; }
+body main #testimony #quotes { width: 90%; }
 body main #testimony img { height: 5em; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; margin: auto; }
 body main #testimony #leftHolder { position: absolute; height: 100%; width: 10%; top: 0; left: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
 body main #testimony #rightHolder { position: absolute; height: 100%; width: 10%; top: 0; right: 0; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; }
+body main #testimony #leftHolder:hover, body main #testimony #rightHolder:hover { background: green; }
 body main #contact { /*article*/ }
 body main #contact article { text-align: center; /*ul*/ }
 body main #contact article ul { /*span*/ }

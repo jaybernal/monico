@@ -25,6 +25,9 @@ body{
           }/*a*/
         } /*header li*/
       } /*header ul*/
+      .menu{
+        margin-right: 1em;
+      }
     } /*header nav*/
 
     #heroWrapper{
@@ -87,11 +90,14 @@ body{
       align-items: center;
       justify-content: center;
       background-color: $red;
-      z-index: -100;
-      height: 30em;
+      height: 100%;
+      .sceneTestimony{
+        display: flex;
+        justify-content: space-between;
+      }
 
-      .quotes{
-        width: 100%;
+      #quotes{
+        width: 90%;
       }
       img{
         height: 5em;
@@ -109,8 +115,7 @@ body{
         left: 0;
         display: flex;
         justify-content: center;
-
-        } 
+        }
 
         #rightHolder{
         position: absolute;
@@ -120,7 +125,10 @@ body{
         right: 0;
         display: flex;
         justify-content: center;
-      }
+        }
+        #leftHolder:hover, #rightHolder:hover{
+          background: green;
+        }
     }/*testimony*/
 
 
